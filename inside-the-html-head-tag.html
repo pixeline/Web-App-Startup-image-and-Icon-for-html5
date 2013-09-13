@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html <?php language_attributes(); ?> class="no-js">
+    <head>
+        <meta charset="utf-8">
+		<script>document.cookie='resolution='+Math.max(screen.width,screen.height)+("devicePixelRatio" in window ? ","+devicePixelRatio : ",1")+'; path=/';</script>
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700|Open+Sans+Condensed:300,700,300italic' rel='stylesheet' type='text/css'>
+        <title><?php wp_title(''); ?></title>
+
+		<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
+		<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/library/images/apple-touch-icon.png">
+
+        <!-- mobile meta (hooray!) -->
+		<meta name="HandheldFriendly" content="true">
+		<meta name="MobileOptimized" content="320">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+		<!-- ENABLE WEB APP MODE -->
+		<meta name="apple-mobile-web-app-title" content="Didier Motte">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="translucent black" />
+
+		<!-- iPhone -->
+        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="<?php echo get_template_directory_uri(); ?>/library/images/apple-touch-icon-57x57-precomposed.png">
+        <link rel="apple-touch-startup-image" href="<?php echo get_template_directory_uri(); ?>/library/images/apple-touch-startup-image-320x460.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)">
+
+        <!-- iPhone (Retina) -->
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo get_template_directory_uri(); ?>/library/images/apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-startup-image" href="<?php echo get_template_directory_uri(); ?>/library/images/apple-touch-startup-image-640x920.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" >
+
+        <!-- iPhone 5 -->
+        <link rel="apple-touch-startup-image" href="<?php echo get_template_directory_uri(); ?>/library/images/apple-touch-startup-image-640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)">
+
+        <!-- iPad -->
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo get_template_directory_uri(); ?>/library/images/apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" href="<?php echo get_template_directory_uri(); ?>/library/images/apple-touch-startup-image-768x1004.png">
+        <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" href="<?php echo get_template_directory_uri(); ?>/library/images/apple-touch-startup-image-748x1024.png">
+
+        <!-- iPad (Retina) -->
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo get_template_directory_uri(); ?>/library/images/apple-touch-icon-144x144-precomposed.png">
+        <link rel="apple-touch-startup-image" href="<?php echo get_template_directory_uri(); ?>/library/images/apple-touch-startup-image-1536x2008.png" media="device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)">
+        <link rel="apple-touch-startup-image" href="<?php echo get_template_directory_uri(); ?>/library/images/apple-touch-startup-image-1496x2048.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)">
